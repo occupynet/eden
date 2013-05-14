@@ -16,13 +16,13 @@ function mexcla_hangup() {
     gSession.hangup();
     // Unset gSession so when the user tries to re-connect
     // we know to re-connect
+    sipStack.stop();
     gSession = null;
   }
   change_submit_button_value('Connect');
 }
 
 function mexcla_init() {
-  change_submit_button_value('Connecting...');
   // Initialize the engine
   SIPml.init(
     function(e){
@@ -46,14 +46,14 @@ function mexcla_init() {
             // so we can call the dtmf method
             // throughout the call
             gSession = callSession;
-            mexcla_mic_mute();
-            mexcla_mode_original();
           }  
         }
       });
       sipStack.start();
       change_submit_button_value('Disconnect');
-      // sipStack.callSession = callSession;
+      // Initialize radio buttons
+      mexcla_check_radio_button('mic-unmute');
+      mexcla_check_radio_button('mode-original');
     }
   );
 }
