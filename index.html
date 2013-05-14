@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<html>
+  <head>
+    <title>Mexcla</title>
+    <style type="text/css" media="all">@import url("/base.css");</style>
+    <script src="/js/config.js" type="text/javascript"> </script>
+    <script src="/js/sipml5/SIPml-api.js" type="text/javascript"> </script>
+    <script src="/js/sipml5/SIPml.js" type="text/javascript"> </script>
+    <script src="/js/mexcla-html5.js" type="text/javascript"> </script>
+  </head>
+  <body onload="mexcla_init();">
+    <h1>Mexcla</h1>
+    <div id="tagline">The May First/People Link simultaneous interpration conference system</div>
+
+    <input type="submit" value="Connect" onclick="mexcla_toggle_call_status();" id="connect-button" />
+
+    <div>Microphone Status</div>
+    <input onclick="mexcla_mic_mute();" type="radio" name="mic" id="mic-mute" value="mute">Mute</input>
+    <input onclick="mexcla_mic_unmute();" selected="selected" type="radio" name="mic" id="mic-unmute" value="unmute">Unmute</input>
+    
+    <div>Interpretation Mode</div>
+    <input onclick="mexcla_mode_original();" selected="selected" type="radio" name="mode" id="mode-original" value="original">Hear Original voices</input>
+    <input onclick="mexcla_mode_hear_interpretation();" type="radio" name="mode" id="mode-hear-interpretation" value="hear-interpretation">Hear Interpretation</input>
+    <input onclick="mexcla_mode_provide_interpretation();" type="radio" name="mode" id="mode-provide-interpretation" value="provide-interpretation">Provide Interpretation</input>
+
+    <audio id="audio-remote" autoplay="autoplay"/>
+  </body>
+</html>

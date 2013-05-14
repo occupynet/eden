@@ -1,0 +1,21 @@
+body {
+  font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+  font-size:0.8em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 0;
+}
+
+#tagline {
+  color: gray;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+input {
+  margin-bottom: 20px;
+}
