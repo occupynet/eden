@@ -82,9 +82,9 @@ function mexcla_mic_mute() {
     mexcla_check_radio_button('mic-mute');
   }
 }
-function mexcla_mic_umute() {
+function mexcla_mic_unmute() {
   if(mexcla_dtmf('*')) {
-    mexcla_check_radio_button('mic-mute');
+    mexcla_check_radio_button('mic-unmute');
   }
 }
 function mexcla_mode_original() {
