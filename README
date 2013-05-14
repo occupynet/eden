@@ -1,0 +1,2 @@
+Start by copying js/config.sample.js to js/config.js and replace with 
+values specific to your SIP server.
