@@ -1,2 +1,6 @@
 Start by copying js/config.sample.js to js/config.js and replace with 
 values specific to your SIP server.
+
+In addition, you need to following the direcitons in js/sipml/README to
+download the sipml5 library (https://code.google.com/p/sipml5/) and create
+symlinks to the relevant files in that library.
