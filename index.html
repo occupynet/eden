@@ -22,18 +22,19 @@
   <body onload="mexcla_init();">
     <h1>Mexcla</h1>
     <div id="tagline">The May First/People Link simultaneous interpretation conference system</div>
-
+    <div><form><fieldset>
     <input type="submit" value="Connect" onclick="mexcla_toggle_call_status();" id="connect-button" />
 
     <div>Microphone Status</div>
-    <input onclick="mexcla_mic_mute();" type="radio" name="mic" id="mic-mute" value="mute">Mute</input>
-    <input onclick="mexcla_mic_unmute();" type="radio" name="mic" id="mic-unmute" value="unmute">Unmute</input>
+    <label><input onclick="mexcla_mic_mute();" type="radio" name="mic" id="mic-mute" value="mute" />Mute</label>
+    <label><input onclick="mexcla_mic_unmute();" type="radio" name="mic" id="mic-unmute" value="unmute" />Unmute</label>
     
     <div>Interpretation Mode</div>
-    <input onclick="mexcla_mode_original();" type="radio" name="mode" id="mode-original" value="original">Hear Original voices</input>
-    <input onclick="mexcla_mode_hear_interpretation();" type="radio" name="mode" id="mode-hear-interpretation" value="hear-interpretation">Hear Interpretation</input>
-    <input onclick="mexcla_mode_provide_interpretation();" type="radio" name="mode" id="mode-provide-interpretation" value="provide-interpretation">Provide Interpretation</input>
+    <label><input onclick="mexcla_mode_original();" type="radio" name="mode" id="mode-original" value="original" />Hear Original voices</label>
+    <label><input onclick="mexcla_mode_hear_interpretation();" type="radio" name="mode" id="mode-hear-interpretation" value="hear-interpretation" />Hear Interpretation</label>
+    <label><input onclick="mexcla_mode_provide_interpretation();" type="radio" name="mode" id="mode-provide-interpretation" value="provide-interpretation" />Provide Interpretation</label>
 
     <audio id="audio-remote" autoplay="autoplay"/>
+    </fieldset></form></div>
   </body>
 </html>
