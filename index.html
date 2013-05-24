@@ -12,8 +12,8 @@
   <body onload="mexcla_init();">
     <h1>Mexcla</h1>
     <div id="tagline">The May First/People Link simultaneous interpretation conference system</div>
-    <div><form>
-    <input type="submit" value="Connect" onclick="mexcla_toggle_call_status();" id="connect-button" />
+    <div><form action="./">
+    <input type="submit" value="Connect" onclick="mexcla_toggle_call_status(); return false;" id="connect-button" />
 
     <div>Microphone Status</div>
     <label><input onclick="mexcla_mic_mute();" type="radio" name="mic" id="mic-mute" value="mute" />Mute</label>
