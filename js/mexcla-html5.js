@@ -32,15 +32,29 @@ function mexcla_init() {
         impu: config.impu, 
         password: config.password, 
         enable_rtcweb_breaker: config.enable_rtcweb_breaker,
+        outbound_proxy_url: config.outbound_proxy_url,
+        websocket_proxy_url: config.websocket_proxy_url,
+        ice_servers: config.ice_servers,
         events_listener: { 
           events: 'started', 
           listener: function(e){
+            // Create a new call
             var callSession = sipStack.newSession(
               'call-audio', 
               { audio_remote: 
                 document.getElementById('audio-remote')
               }
             );
+            // Define a listener that will alert the user when we are connecting
+            // and when we are connected.
+            callSession.addEventListener('*', function(se) {
+              if (se.type == "connecting") {
+                change_submit_button_value('Connecting...');
+              } else if(se.type == 'connected') {
+                change_submit_button_value('Disconnect');
+              }
+            });
+            // Place the call.
             callSession.call('9999');
             // Save session in global variable
             // so we can call the dtmf method
@@ -50,7 +64,6 @@ function mexcla_init() {
         }
       });
       sipStack.start();
-      change_submit_button_value('Disconnect');
       // Initialize radio buttons
       mexcla_check_radio_button('mic-unmute');
       mexcla_check_radio_button('mode-original');
