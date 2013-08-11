@@ -1,6 +1,16 @@
+GETTING STARTED
+
 Start by copying js/config.sample.js to js/config.js and replace with 
 values specific to your SIP server.
 
 In addition, you need to following the direcitons in js/sipml/README to
-download the sipml5 library (https://code.google.com/p/sipml5/) and create
-symlinks to the relevant files in that library.
+download the sipml5 library (https://code.google.com/p/sipml5/) and create a
+symlink to the relevant files in that library.
+
+INTERNATIONALIZATION
+
+extract-strings and generate-pages are bash scripts used to handle
+internationalization. Place all languge strings in index.base enclosed in pipes
+(e.g. |This is a language string|). Then run extract-strings to extract all
+strings into translation.es. Then, add translations to translation.es. Lastly,
+run generate-pages to generate an index.en.html and index.es.html page.
