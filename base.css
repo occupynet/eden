@@ -13,9 +13,13 @@ h1 {
 #tagline {
   color: gray;
   font-style: italic;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 input {
   margin-bottom: 20px;
+}
+
+#language-links {
+  padding-bottom: 20px;
 }

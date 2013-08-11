@@ -4,10 +4,11 @@ function mexcla_toggle_call_status() {
   if(gSession) { 
     mexcla_hangup();
   } else {
+    call_init();
     // Seems to fail without a page reload
     // and since we have onLoad property set
     // to dial, that's all we need.
-    location.reload();
+    // location.reload(True);
   }
 }
 
@@ -19,10 +20,14 @@ function mexcla_hangup() {
     sipStack.stop();
     gSession = null;
   }
-  change_submit_button_value('Connect');
+  change_submit_button_value(submit_button_connect_value);
 }
 
 function mexcla_init() {
+  // Do nothing (for now)
+}
+
+function call_init() {
   // Initialize the engine
   SIPml.init(
     function(e){
@@ -49,9 +54,9 @@ function mexcla_init() {
             // and when we are connected.
             callSession.addEventListener('*', function(se) {
               if (se.type == "connecting") {
-                change_submit_button_value('Connecting...');
+                change_submit_button_value(lang_connecting);
               } else if(se.type == 'connected') {
-                change_submit_button_value('Disconnect');
+                change_submit_button_value(lang_disconnect);
               }
             });
             // Place the call.
@@ -76,7 +81,7 @@ function mexcla_dtmf(key) {
     gSession.dtmf(key);
     return true;
   } else { 
-    alert("Your call is not yet connected.");
+    alert(lang_not_yet_connected);
     return false;
   }
 }

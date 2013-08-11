@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Generate both an index.en.html and index.es.html from index.html using translation.es
+
+# Simply eliminate the pipes for the english version.
+cat index.base | tr -d '|' > index.en.html
+cp index.base index.es.html
+# Replace strings in spanish version.
+cat translation.es | grep -v ^# | while read line; do
+  en=$(echo "$line" | cut -d= -f1)
+  es=$(echo "$line" | cut -d= -f2)
+  sed -i "s#$en#$es#g" index.es.html
+done

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mexcla</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <style type="text/css" media="all">@import url("base.css");</style>
+    <script src="js/config.js" type="text/javascript"> </script>
+    <script src="js/sipml5/SIPml-api.js" type="text/javascript"> </script>
+    <script src="js/mexcla-html5.js" type="text/javascript"> </script>
+    <script type="text/javascript">
+      // Define language strings here.
+      var lang_submit_button_connect = '|Connect|';
+      var lang_connecting = '|Connecting (this may take up to 15 seconds)...|';
+      var lang_disconnect = '|Disconnect|';
+      var lang_not_yet_connected = '|Your call is not yet connected|';
+    </script>
+  </head>
+  <body onload="mexcla_init();">
+    <h1>Mexcla</h1>
+    <div id="tagline">|The May First/People Link simultaneous interpretation conference system|</div>
+    <div id="language-links"><a href="index.es.html">es</a> <a href="index.en.html">en</a></div>
+    <div><form>
+    <input type="submit" value="|Connect|" onclick="mexcla_toggle_call_status(); return false;" id="connect-button" />
+
+    <div>|Microphone Status|</div>
+    <label><input onclick="mexcla_mic_mute();" type="radio" name="mic" id="mic-mute" value="mute" />|Mute|</label>
+    <label><input onclick="mexcla_mic_unmute();" type="radio" name="mic" id="mic-unmute" value="unmute" />|Unmute|</label>
+    
+    <div>|Interpretation Mode|</div>
+    <label><input onclick="mexcla_mode_original();" type="radio" name="mode" id="mode-original" value="original" />|Hear original language|</label>
+    <label><input onclick="mexcla_mode_hear_interpretation();" type="radio" name="mode" id="mode-hear-interpretation" value="hear-interpretation" />|Hear interpretation|</label>
+    <label><input onclick="mexcla_mode_provide_interpretation();" type="radio" name="mode" id="mode-provide-interpretation" value="provide-interpretation" />|Provide interpretation|</label>
+
+    <audio id="audio-remote" autoplay="autoplay">
+      |Sorry, you have no audio capabilities! Please use chrome or chromium great than version 25.|
+    </audio>
+    </form></div>
+  </body>
+</html>
