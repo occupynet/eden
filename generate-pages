@@ -11,3 +11,9 @@ cat translation.es | grep -v ^# | while read line; do
   es=$(echo "$line" | cut -d= -f2)
   sed -i "s#$en#$es#g" index.es.html
 done
+
+# Optionally pass base as first argument (if you are running this version in a 
+# subdirectory), e.g.: ./generate-pages "/mexcla"
+sed -i "s#{base}#$1#g" index.en.html
+sed -i "s#{base}#$1#g" index.es.html
+
