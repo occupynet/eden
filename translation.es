@@ -16,3 +16,4 @@
 |Add Indymedia Text chat|=Añadir el chat de texto de Indymedia
 |Add Riseup Note Pad|=Añadir notas Riseup
 |Add MF/PL Spreadsheet|=Añadir Spreadsheet MF/PL
+|Click the connect button to join the conference call. If you have technical problems, you may also connected by dialing +1.718.303.3024, choose extension 6, and then enter conference number: |=Haga clic en el botón conectar para unirse a la llamada de conferencia. Si usted tiene problemas técnicos, puede también conectado por marcación + 1.718.303: 3024, elige extensión 6 y luego ingrese el número de Conferencia:
