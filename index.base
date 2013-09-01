@@ -19,7 +19,7 @@
   </head>
   <body onload="mexcla_init();">
     <div id="header">
-      <img id="logo" alt="Dandilion" src="/images/logo.png" /></td>
+      <img id="logo" alt="Dandilion" src="{base}/images/logo.png" /></td>
       <div id="tagline">|Mexcla: The May First/People Link simultaneous interpretation conference system|</div>
       <div id="language-links"><a id="es-switch-link" href="/es/">es</a> <a id="en-switch-link" href="/en/">en</a></div>
     </div>
