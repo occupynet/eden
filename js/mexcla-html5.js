@@ -125,7 +125,7 @@ function mexcla_call_init() {
             // Define a listener that will alert the user when we are connecting
             // and when we are connected.
             callSession.addEventListener('*', function(se) {
-              // alert("Event type is: " + se.type);
+              // console.log("Event type is: " + se.type);
               if (se.type == "connecting") {
                 change_submit_button_value(lang_connecting);
               } else if(se.type == 'connected') {
@@ -197,6 +197,11 @@ function mexcla_join_conference() {
   }
   mexcla_pause(200);
   mexcla_dtmf('#');
+  // Wait a few seconds for the call to fully complete, then start off the
+  // user muted, so we don't have a cacaphony of noise as new people join.
+  // Commented out: usually you want to say hi first thing after joining a
+  // conference - so getting a "you are now muted" maybe is too rude?
+  // setTimeout(mexcla_mic_mute, 7000);
 }
 
 function mexcla_dtmf(key) {
@@ -238,11 +243,24 @@ function change_submit_button_value(val) {
 function mexcla_mic_mute() {
   if(mexcla_dtmf('*')) {
     mexcla_check_radio_button('mic-mute');
+    var current_src = $('#mic').attr('src');
+    target_src = current_src.replace('mic.unmuted.png', 'mic.muted.png');
+    $('#mic').attr('src', target_src);
   }
+  else {
+    mexcla_check_radio_button('mic-unmute');
+  }
+
 }
 function mexcla_mic_unmute() {
   if(mexcla_dtmf('*')) {
     mexcla_check_radio_button('mic-unmute');
+    var current_src = $('#mic').attr('src');
+    target_src = current_src.replace('mic.muted.png', 'mic.unmuted.png');
+    $('#mic').attr('src', target_src);
+  }
+  else {
+    mexcla_check_radio_button('mic-mute');
   }
 }
 function mexcla_mode_original() {

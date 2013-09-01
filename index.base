@@ -40,7 +40,7 @@
 
     <div id="call-options">
       <div id="microphone-status">
-        <img id="mic" src="{base}/images/mic.png" alt="microphone" />
+        <img id="mic" src="{base}/images/mic.unmuted.png" alt="microphone" />
         <!-- Mic image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Exquisite-microphone.png) and KDE which 
         seems to have improved a version from Mimi Ladha. -->
 
