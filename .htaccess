@@ -1,4 +1,0 @@
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-# All we care about is the language 
-RewriteRule (en|es)/ /index.$1.html

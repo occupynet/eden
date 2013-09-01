@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+# All we care about is the language. You may need to add a base
+# directory to the line below.
+RewriteRule (en|es)/ /index.$1.html
