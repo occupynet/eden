@@ -11,7 +11,7 @@
     <script type="text/javascript" src="/javascript/jquery-ui/jquery-ui.min.js"></script>
     <script type="text/javascript">
       // Define language strings here.
-      var lang_submit_button_connect = '|Connect|';
+      var lang_connect = '|Connect|';
       var lang_connecting = '|Connecting (this may take up to 15 seconds)...|';
       var lang_disconnect = '|Disconnect|';
       var lang_not_yet_connected = '|Your call is not yet connected|';
@@ -27,7 +27,7 @@
     <div id="connect">
       <div id="connect-icon-and-button">
         <button onclick="mexcla_toggle_call_status(); return false;" id="connect-button">
-          <img id="phone" src="{base}/images/phone.png" alt="phone" />
+          <img id="phone" src="{base}/images/phone.disconnected.png" alt="phone" />
           <!-- Phone image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Emblem_phone.svg) and g ambrus 
           (https://commons.wikimedia.org/wiki/User:G_ambrus) -->
           <span id="connect-button-text">|Connect|</span>

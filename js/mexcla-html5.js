@@ -16,7 +16,7 @@ function mexcla_hangup() {
     sipStack.stop();
     gSession = null;
   }
-  change_submit_button_value(lang_submit_button_connect);
+  change_submit_button_value(lang_connect);
   // Seems to prevent reconnection without a page reload
   location.reload();
 }
@@ -217,6 +217,22 @@ function mexcla_check_radio_button(id) {
 
 function change_submit_button_value(val) {
   $('#connect-button-text').text(val);
+  var current_src = $('#phone').attr('src');
+  var target_src = '';
+  if(val == lang_connect) {
+    // We're disconnecting, so change the picture to the
+    // disconnected phone.
+    target_src = current_src.replace('phone.connected.png', 'phone.disconnected.png');
+  }
+  else if(val  == lang_disconnect) {
+    target_src = current_src.replace('phone.disconnected.png', 'phone.connected.png');
+  }
+  else {
+    // When we are connecting... the picture should remain showing
+    // the disconnected phone.
+    return;
+  }
+  $('#phone').attr('src', target_src);
 }
 
 function mexcla_mic_mute() {
