@@ -24,6 +24,7 @@ function mexcla_hangup() {
 function mexcla_init() {
   conf = mexcla_get_conference_number();
   console.log("Conference is: " + conf);
+  $('.pstn-instructions-conference-number').append(conf);
   mexcla_init_language_links();
   mexcla_init_iframes();
 }
@@ -215,7 +216,7 @@ function mexcla_check_radio_button(id) {
 }
 
 function change_submit_button_value(val) {
-  document.getElementById('connect-button').value = val;
+  $('#connect-button-text').text(val);
 }
 
 function mexcla_mic_mute() {

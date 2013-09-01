@@ -46,6 +46,36 @@ iframe {
   border: 8px solid grey;
 }
 
-#mic, #headset, #phone, #pencil, label {
+#mic, #headset, #phone, #pencil, label, #connect-button {
   vertical-align: middle;
+}
+
+#connect-button {
+  background-color: #995e26;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  border: 5px solid #995e26;
+  padding: 3px;
+  /* This margin-top is only hear because vertical-align doesn't seem to work. */
+  margin-top: 15px;
+  /* margin left and right are trying to get the button centered. */
+  margin-left: 40%;
+  margin-right: 40%;
+  color: #ffffff;
+  height: 43px;
+}
+
+
+#connect-instructions {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+#connect {
+  /* Controlling width to prevent the phone instructions from stretching out
+   * to far, which makes the whole page look ugly. */
+  width: 600px;
 }

@@ -25,10 +25,17 @@
     </div>
 
     <div id="connect">
-      <img id="phone" src="{base}/images/phone.png" alt="phone" />
-      <!-- Phone image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Emblem_phone.svg) and g ambrus 
-      (https://commons.wikimedia.org/wiki/User:G_ambrus) -->
-      <input type="button" value="|Connect|" onclick="mexcla_toggle_call_status(); return false;" id="connect-button" />
+      <div id="connect-icon-and-button">
+        <button onclick="mexcla_toggle_call_status(); return false;" id="connect-button">
+          <img id="phone" src="{base}/images/phone.png" alt="phone" />
+          <!-- Phone image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Emblem_phone.svg) and g ambrus 
+          (https://commons.wikimedia.org/wiki/User:G_ambrus) -->
+          <span id="connect-button-text">|Connect|</span>
+        </button>
+      </div>
+      <div id="connect-instructions">
+        <span class="pstn-instructions">|Click the connect button to join the conference call. If you have technical problems, you may also connected by dialing +1.718.303.3024, choose extension 6, and then enter conference number: |<span class="pstn-instructions-conference-number"></span></span>
+      </div>
     </div>
 
     <div id="call-options">
