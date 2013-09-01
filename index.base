@@ -26,18 +26,25 @@
 
     <div id="connect">
       <img id="phone" src="{base}/images/phone.png" alt="phone" />
+      <!-- Phone image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Emblem_phone.svg) and g ambrus 
+      (https://commons.wikimedia.org/wiki/User:G_ambrus) -->
       <input type="button" value="|Connect|" onclick="mexcla_toggle_call_status(); return false;" id="connect-button" />
     </div>
 
     <div id="call-options">
       <div id="microphone-status">
         <img id="mic" src="{base}/images/mic.png" alt="microphone" />
+        <!-- Mic image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Exquisite-microphone.png) and KDE which 
+        seems to have improved a version from Mimi Ladha. -->
+
         <label><input onclick="mexcla_mic_mute();" type="radio" name="mic" id="mic-mute" value="mute" />|Mute|</label>
         <label><input onclick="mexcla_mic_unmute();" type="radio" name="mic" id="mic-unmute" value="unmute" />|Unmute|</label>
       </div>
 
       <div id="interpretation-mode">
         <img id="headset" src="{base}/images/headset.png" alt="headset" />
+        <!-- Headset image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_voice-support.png) and 
+        author Everaldo Coelho (https://en.wikipedia.org/wiki/Everaldo_Coelho) and Yellowicon (http://www.yellowicon.com/) -->
         <label><input onclick="mexcla_mode_original();" type="radio" name="mode" id="mode-original" value="original" />|Hear original language|</label>
         <label><input onclick="mexcla_mode_hear_interpretation();" type="radio" name="mode" id="mode-hear-interpretation" value="hear-interpretation" />|Hear interpretation|</label>
         <label><input onclick="mexcla_mode_provide_interpretation();" type="radio" name="mode" id="mode-provide-interpretation" value="provide-interpretation" />|Provide interpretation|</label>
@@ -46,6 +53,8 @@
 
     <div id="iframe-selectors">
         <img id="pencil" src="{base}/images/pencil.png" alt="pencil" />
+        <!-- Pencil image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_kaddressbook.png) and 
+        author Everaldo Coelho (https://en.wikipedia.org/wiki/Everaldo_Coelho) and Yellowicon (http://www.yellowicon.com/) -->
         <label><input onclick="mexcla_toggle_irc();" type="checkbox" id="irc-iframe-checkbox" />|Add Indymedia Text chat|</label>
         <label><input onclick="mexcla_toggle_pad();" type="checkbox" id="pad-iframe-checkbox" />|Add Riseup Note Pad|</label>
         <label><input onclick="mexcla_toggle_calc();" type="checkbox" id="calc-iframe-checkbox" />|Add MF/PL Spreadsheet|</label>
