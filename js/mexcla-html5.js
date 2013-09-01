@@ -4,7 +4,7 @@ function mexcla_toggle_call_status() {
   if(gSession) { 
     mexcla_hangup();
   } else {
-    call_init();
+    mexcla_call_init();
   }
 }
 
@@ -22,6 +22,13 @@ function mexcla_hangup() {
 }
 
 function mexcla_init() {
+  conf = mexcla_get_conference_number();
+  console.log("Conference is: " + conf);
+  mexcla_init_language_links();
+  mexcla_init_iframes();
+}
+
+function mexcla_init_language_links() {
   // Update the en and es page links to include the
   // given URL parameters.
   path = window.location.pathname;
@@ -35,10 +42,53 @@ function mexcla_init() {
   }
   document.getElementById('es-switch-link').href = es;
   document.getElementById('en-switch-link').href = en;
-
 }
 
-function call_init() {
+function mexcla_init_iframes() {
+  params = mexcla_get_url_params()
+  for (var i = 0; i < params.length; i++) {
+    param = params[i];
+    if(param.substr(0,3) == 'irc') {
+      mexcla_toggle_irc();
+    }
+    else if(param.substr(0,4) == 'calc') {
+      mexcla_toggle_calc();
+    }
+  }
+}
+
+function mexcla_toggle_irc() {
+  mexcla_toggle_iframe('irc-frame', 'https://irc.indymedia.nl/?form=off&secure=on&channels=#mayfirst&nick=mfpl-member&cgiirc=mozilla');
+}
+
+function mexcla_toggle_pad() {
+  // We use mexcla_get_hash so the calc pages created aren't so trivially discovered.
+  mexcla_toggle_iframe('pad-frame', 'https://pad.riseup.net/p/' + mexcla_get_hash());
+}
+function mexcla_toggle_iframe(id,url) {
+  if($('#' + id).length == 0) {
+    // The element doesn't exist, add it.
+    mexcla_add_iframe(id, url);
+    $('.draggable').draggable();
+  }
+  else{
+    $('#' + id).remove();
+  }
+}
+
+function mexcla_toggle_calc() {
+  // We use mexcla_get_hash so the calc pages created aren't so trivially discovered.
+  mexcla_toggle_iframe('calc-frame', 'https://calc.mayfirst.org/' + mexcla_get_hash());
+}
+
+// Generate a random-looking hash that will be the same for everyone on the
+// same conference call.
+function mexcla_get_hash() {
+  s = 'mfpl-mexcla' + mexcla_get_conference_number();
+  return s.split("").reduce(function(a,b){a=((a<<5)-a)+b.charCodeAt(0);return a&a},0);
+}
+
+function mexcla_call_init() {
   // Ensure we have a conference number
   conf = mexcla_get_conference_number();
   if(conf == 0) {
@@ -101,18 +151,14 @@ function call_init() {
 }
  
 function mexcla_get_url_params() {
-  parts = window.location.pathname.split('/');
-  // location.pathname is like /en/1234 or, if you are in a subdirectory, /mexcla/en/1234
-  // We want to split by / and then discard everything before
-  // the language string
+  // Split the url by /, skipping the first / so we don't have an empty value first.
+  parts = window.location.pathname.substr(1).split('/');
+  // Delete empty parts
   for (var i = 0; i < parts.length; i++) {
-    if(parts[i] == 'en' || parts[i] == 'es') {
-      parts.shift();
-      break;
+    if(parts[i] == '') {
+      delete parts[i];
     }
-    parts.shift();
   }
-  
   return parts;
 }
 
@@ -206,4 +252,8 @@ function mexcla_pause(s) {
   var curDate = null;
   do { curDate = new Date(); }
   while(curDate - date < s);
+}
+
+function mexcla_add_iframe(id, src) {
+  $("#user-objects").append('<iframe class="draggable resizable" id="' + id + '" src="' + src + '"/>');
 }

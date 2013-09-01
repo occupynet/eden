@@ -23,3 +23,29 @@ input {
 #language-links {
   padding-bottom: 20px;
 }
+
+/* Pure css resize function. */
+.resizable {
+  resize: both;
+  overflow: auto;
+}
+
+/* Create a big box for user created objects (iframe, etc). */
+#user-objects {
+  overflow: hidden;
+  padding: 40px;
+  width: 1000px;
+  height: 1000px;
+}
+
+/* Start iframe at 20% since we can seem to resize smaller than the initial size. */
+iframe {
+  width: 30%;
+  height: 30%;
+  margin: 10px;
+  border: 8px solid grey;
+}
+
+#mic, #headset, #phone, #pencil, label {
+  vertical-align: middle;
+}

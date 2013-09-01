@@ -2,12 +2,12 @@
 
 target=translation.es
 out=
-# Extract ` enclosed strings from index.html into translation.
-grep -o '`.*`' index.html | while read line; do
+# Extract | enclosed strings from index.base into translation.
+grep -o '|.*|' index.base | while read line; do
   # See if exactly line exists in target
   if grep "^${line}=" "$target" > /dev/null; then
     # Don't overwrite existing lines, they may have already been translated.
     continue;
   fi
-  echo "$line"="{}" >> "$target"
+  echo "$line"="||" >> "$target"
 done
