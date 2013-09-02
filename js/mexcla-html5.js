@@ -1,7 +1,7 @@
 var gSession;
 
 function mexcla_toggle_call_status() {
-  if(gSession) { 
+  if(gSession) {
     mexcla_hangup();
   } else {
     mexcla_call_init();
@@ -9,7 +9,7 @@ function mexcla_toggle_call_status() {
 }
 
 function mexcla_hangup() {
-  if(gSession) { 
+  if(gSession) {
     gSession.hangup();
     // Unset gSession so when the user tries to re-connect
     // we know to re-connect
@@ -85,7 +85,7 @@ function mexcla_toggle_calc() {
 // Generate a random-looking hash that will be the same for everyone on the
 // same conference call.
 function mexcla_get_hash() {
-  s = 'mfpl-mexcla' + mexcla_get_conference_number();
+  s = 'mfplmexcla' + mexcla_get_conference_number();
   return s.split("").reduce(function(a,b){a=((a<<5)-a)+b.charCodeAt(0);return a&a},0);
 }
 
@@ -104,21 +104,21 @@ function mexcla_call_init() {
   SIPml.init(
     function(e){
       sipStack =  new SIPml.Stack({
-        realm: config.realm, 
-        impi: config.impi, 
-        impu: config.impu, 
-        password: config.password, 
+        realm: config.realm,
+        impi: config.impi,
+        impu: config.impu,
+        password: config.password,
         enable_rtcweb_breaker: config.enable_rtcweb_breaker,
         outbound_proxy_url: config.outbound_proxy_url,
         websocket_proxy_url: config.websocket_proxy_url,
         ice_servers: config.ice_servers,
-        events_listener: { 
-          events: 'started', 
+        events_listener: {
+          events: 'started',
           listener: function(e){
             // Create a new call
             var callSession = sipStack.newSession(
-              'call-audio', 
-              { audio_remote: 
+              'call-audio',
+              { audio_remote:
                 document.getElementById('audio-remote')
               }
             );
@@ -135,12 +135,12 @@ function mexcla_call_init() {
             });
             // Place the call.
             callSession.call('9999');
-            
+
             // Save session in global variable
             // so we can call the dtmf method
             // throughout the call
             gSession = callSession;
-          }  
+          }
         }
       });
       sipStack.start();
@@ -150,7 +150,7 @@ function mexcla_call_init() {
     }
   );
 }
- 
+
 function mexcla_get_url_params() {
   // Split the url by /, skipping the first / so we don't have an empty value first.
   parts = window.location.pathname.substr(1).split('/');
@@ -209,7 +209,7 @@ function mexcla_dtmf(key) {
     var ret = gSession.dtmf(key);
     // alert("Sent " + key + " got " + ret);
     return true;
-  } else { 
+  } else {
     alert(lang_not_yet_connected);
     return false;
   }
@@ -220,6 +220,8 @@ function mexcla_check_radio_button(id) {
 
 }
 
+// Make the interval id global
+intervalId = 0;
 function change_submit_button_value(val) {
   $('#connect-button-text').text(val);
   var current_src = $('#phone').attr('src');
@@ -230,14 +232,42 @@ function change_submit_button_value(val) {
     target_src = current_src.replace('phone.connected.png', 'phone.disconnected.png');
   }
   else if(val  == lang_disconnect) {
+    // We're connecting... kill the dots animation.
+    clearInterval(intervalId);
+    // Ensure there are no current dots.
+    mexcla_dots('');
     target_src = current_src.replace('phone.disconnected.png', 'phone.connected.png');
   }
   else {
     // When we are connecting... the picture should remain showing
     // the disconnected phone.
+    // However, we should update the text to add an animation effect
+    // of the dots progressing...
+    intervalId = setInterval(mexcla_dots,500);
     return;
   }
   $('#phone').attr('src', target_src);
+}
+
+// Simulate an animation of dots
+function mexcla_dots(next) {
+  // Can't pass default values, so set it here. The default
+  // value should be null
+  next = typeof next === 'undefined' ? null : next;
+  cur = $('#connect-dots').text();
+  if (next === null) {
+    next = '';
+    if(cur == '') {
+      next = '.';
+    }
+    else if(cur == '.') {
+      next = '..';
+    }
+    else if(cur == '..') {
+      next = '...';
+    }
+  }
+  $('#connect-dots').text(next);
 }
 
 function mexcla_mic_mute() {

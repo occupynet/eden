@@ -38,7 +38,7 @@ input {
   height: 1000px;
 }
 
-/* Start iframe at 20% since we can seem to resize smaller than the initial size. */
+/* Start iframe at 30% since we can seem to resize smaller than the initial size. */
 iframe {
   width: 30%;
   height: 30%;
@@ -46,8 +46,18 @@ iframe {
   border: 8px solid grey;
 }
 
-#mic, #headset, #phone, #pencil, label, #connect-button {
+#mic, #headset, #phone, #pencil, label, #connect-button, #connect-button-text, #connect {
   vertical-align: middle;
+}
+
+#connect-button{
+  /* Only setting margin-buttom because vertical-align is ignored. */
+  margin-bottom: 15px;
+}
+#connect-icon-and-button {
+  /* This is designed to center the div's contents horizontally. */
+  width: 27%;
+  margin: 0 auto;
 }
 
 #connect-button {
@@ -59,12 +69,8 @@ iframe {
   padding: 4px;
   /* This margin-top is only hear because vertical-align doesn't seem to work. */
   margin-top: 15px;
-  /* margin left and right are trying to get the button centered. */
-  margin-left: 40%;
-  margin-right: 40%;
   color: #ffffff;
 }
-
 
 #connect-instructions {
   padding-top: 0px;

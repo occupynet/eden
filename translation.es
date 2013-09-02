@@ -1,7 +1,7 @@
 # Spanish translation file. English is wrapped between pipes (||) on the left of the = sign.
 # and spanish should go on the right side of the equals sign (no pipes) 
 |Connect|=Conectar
-|Connecting (this may take up to 15 seconds)...|=Conectando (esto puede tardar hasta 15 segundos)...
+|Connecting|=Conectando
 |Disconnect|=Desconecte
 |Mexcla: The May First/People Link simultaneous interpretation conference system|=Mexcla: El Primero de Mayo/Enlace de Pueblo sistema de conferencia de interpretación simultánea
 |Microphone Status|=Estado de micrófono

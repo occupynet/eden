@@ -13,7 +13,7 @@
     <script type="text/javascript">
       // Define language strings here.
       var lang_connect = '|Connect|';
-      var lang_connecting = '|Connecting (this may take up to 15 seconds)...|';
+      var lang_connecting = '|Connecting|';
       var lang_disconnect = '|Disconnect|';
       var lang_not_yet_connected = '|Your call is not yet connected|';
     </script>
@@ -27,11 +27,11 @@
 
     <div id="connect">
       <div id="connect-icon-and-button">
+        <!-- Phone image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Emblem_phone.svg) and g ambrus
+        (https://commons.wikimedia.org/wiki/User:G_ambrus) -->
+        <img id="phone" src="{base}/images/phone.disconnected.png" alt="phone" />
         <button onclick="mexcla_toggle_call_status(); return false;" id="connect-button">
-          <img id="phone" src="{base}/images/phone.disconnected.png" alt="phone" />
-          <!-- Phone image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Emblem_phone.svg) and g ambrus 
-          (https://commons.wikimedia.org/wiki/User:G_ambrus) -->
-          <span id="connect-button-text">|Connect|</span>
+          <span id="connect-button-text">|Connect|</span><span id="connect-dots"></span>
         </button>
       </div>
       <div id="connect-instructions">
@@ -42,7 +42,7 @@
     <div id="call-options">
       <div id="microphone-status">
         <img id="mic" src="{base}/images/mic.unmuted.png" alt="microphone" />
-        <!-- Mic image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Exquisite-microphone.png) and KDE which 
+        <!-- Mic image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Exquisite-microphone.png) and KDE which
         seems to have improved a version from Mimi Ladha. -->
 
         <label><input onclick="mexcla_mic_mute();" type="radio" name="mic" id="mic-mute" value="mute" />|Mute|</label>
@@ -51,7 +51,7 @@
 
       <div id="interpretation-mode">
         <img id="headset" src="{base}/images/headset.png" alt="headset" />
-        <!-- Headset image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_voice-support.png) and 
+        <!-- Headset image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_voice-support.png) and
         author Everaldo Coelho (https://en.wikipedia.org/wiki/Everaldo_Coelho) and Yellowicon (http://www.yellowicon.com/) -->
         <label><input onclick="mexcla_mode_original();" type="radio" name="mode" id="mode-original" value="original" />|Hear original language|</label>
         <label><input onclick="mexcla_mode_hear_interpretation();" type="radio" name="mode" id="mode-hear-interpretation" value="hear-interpretation" />|Hear interpretation|</label>
@@ -61,7 +61,7 @@
 
     <div id="iframe-selectors">
         <img id="pencil" src="{base}/images/pencil.png" alt="pencil" />
-        <!-- Pencil image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_kaddressbook.png) and 
+        <!-- Pencil image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_kaddressbook.png) and
         author Everaldo Coelho (https://en.wikipedia.org/wiki/Everaldo_Coelho) and Yellowicon (http://www.yellowicon.com/) -->
         <label><input onclick="mexcla_toggle_irc();" type="checkbox" id="irc-iframe-checkbox" />|Add Indymedia Text chat|</label>
         <label><input onclick="mexcla_toggle_pad();" type="checkbox" id="pad-iframe-checkbox" />|Add Riseup Note Pad|</label>
