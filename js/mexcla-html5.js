@@ -295,16 +295,25 @@ function mexcla_mic_unmute() {
 }
 function mexcla_mode_original() {
   if(mexcla_dtmf('0')) {
+    var current_src = $('#headset').attr('src');
+    target_src = current_src.replace(/headset\.(terp|mono)\.png/, 'headset.bi.png');
+    $('#headset').attr('src', target_src);
     mexcla_check_radio_button('mode-original');
   }
 }
 function mexcla_mode_hear_interpretation() {
   if(mexcla_dtmf('1')) {
+    var current_src = $('#headset').attr('src');
+    target_src = current_src.replace(/headset\.(bi|terp)\.png/, 'headset.mono.png');
+    $('#headset').attr('src', target_src);
     mexcla_check_radio_button('mode-hear-interpretation');
   }
 }
 function mexcla_mode_provide_interpretation() {
   if(mexcla_dtmf('2')) {
+    var current_src = $('#headset').attr('src');
+    target_src = current_src.replace(/headset\.(bi|mono)\.png/, 'headset.terp.png');
+    $('#headset').attr('src', target_src);
     mexcla_check_radio_button('mode-provide-interpretation');
   }
 }

@@ -50,7 +50,7 @@
       </div>
 
       <div id="interpretation-mode">
-        <img id="headset" src="{base}/images/headset.png" alt="headset" />
+        <img id="headset" src="{base}/images/headset.bi.png" alt="headset" />
         <!-- Headset image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_voice-support.png) and
         author Everaldo Coelho (https://en.wikipedia.org/wiki/Everaldo_Coelho) and Yellowicon (http://www.yellowicon.com/) -->
         <label><input onclick="mexcla_mode_original();" type="radio" name="mode" id="mode-original" value="original" />|Hear original language|</label>
