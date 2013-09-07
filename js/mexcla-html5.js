@@ -96,8 +96,8 @@ function mexcla_call_init() {
     alert("Failed to get the conference number.");
     return false;
   }
-  if(conf > 999) {
-    alert("Conference numbers must be below 999. Your number is " + conf);
+  if(conf > 9999999999) {
+    alert("Conference numbers must be below 9,999,999,999. Your number is " + conf);
     return false;
   }
   // Initialize the engine
