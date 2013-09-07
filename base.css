@@ -30,22 +30,23 @@ input {
   overflow: auto;
 }
 
-/* Create a big box for user created objects (iframe, etc). */
-#user-objects {
-  overflow: hidden;
-  padding: 40px;
-  width: 1000px;
-  height: 1000px;
-}
-
 /* Start iframe at 30% since we can seem to resize smaller than the initial size. */
 iframe {
-  width: 30%;
-  height: 30%;
-  margin: 10px;
   border: 8px solid grey;
+  width: 90%;
+  height: 90%;
 }
 
+.direct-link {
+  color: grey;
+  font-size: .8em;
+}
+
+.user-object {
+  width: 400px;
+  height: 490px;
+  text-align: right;
+}
 #mic, #headset, #phone, #pencil, label, #connect-button, #connect-button-text, #connect {
   vertical-align: middle;
 }
@@ -84,3 +85,4 @@ iframe {
    * to far, which makes the whole page look ugly. */
   width: 600px;
 }
+

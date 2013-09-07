@@ -16,6 +16,7 @@
       var lang_connecting = '|Connecting|';
       var lang_disconnect = '|Disconnect|';
       var lang_not_yet_connected = '|Your call is not yet connected|';
+      var lang_direct_link = '|Direct link|'; 
     </script>
   </head>
   <body onload="mexcla_init();">
@@ -69,7 +70,9 @@
       </div>
 
     <div id="user-objects">
-
+      <table>
+        <tr></tr>
+      </table>
     </div>
     <!-- The audio tag is not seen by the user (unless their browser doesn't support it) -->
     <div id="audio">

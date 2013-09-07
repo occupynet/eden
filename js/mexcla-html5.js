@@ -59,7 +59,7 @@ function mexcla_init_iframes() {
 }
 
 function mexcla_toggle_irc() {
-  mexcla_toggle_iframe('irc-frame', 'https://irc.indymedia.nl/?form=off&secure=on&channels=#mayfirst&nick=mfpl-member&cgiirc=mozilla');
+  mexcla_toggle_iframe('irc-frame', 'https://irc.koumbit.net/?channels=#' + mexcla_get_hash() + '&nick=guest');
 }
 
 function mexcla_toggle_pad() {
@@ -85,8 +85,7 @@ function mexcla_toggle_calc() {
 // Generate a random-looking hash that will be the same for everyone on the
 // same conference call.
 function mexcla_get_hash() {
-  s = 'mfplmexcla' + mexcla_get_conference_number();
-  return s.split("").reduce(function(a,b){a=((a<<5)-a)+b.charCodeAt(0);return a&a},0);
+  return 'mexcla-' + mexcla_get_conference_number();
 }
 
 function mexcla_call_init() {
@@ -329,5 +328,5 @@ function mexcla_pause(s) {
 }
 
 function mexcla_add_iframe(id, src) {
-  $("#user-objects").append('<iframe class="draggable resizable" id="' + id + '" src="' + src + '"/>');
+  $("#user-objects").append('<td class="user-object" id="' + id + '"><span class="direct-link">' + lang_direct_link + ': <a target="_blank" href="' + src + '">' + src + '</a></span><br /><iframe class="draggable resizable" src="' + src + '"/></td>');
 }
