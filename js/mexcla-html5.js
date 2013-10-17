@@ -236,6 +236,7 @@ function change_submit_button_value(val) {
     // Ensure there are no current dots.
     mexcla_dots('');
     target_src = current_src.replace('phone.disconnected.png', 'phone.connected.png');
+    $('#microphone-status').show();
   }
   else {
     // When we are connecting... the picture should remain showing
