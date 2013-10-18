@@ -8,6 +8,10 @@ if [ -z "$base" ]; then
   printf "Please base the URL base directory as first argument, e.g. '/mexcla'.\n"
   exit 1
 fi
+
+# Unset base if it's the root directory to avoid //
+[ "$base" = "/" ] && base=
+
 # Simply eliminate the pipes for the english version.
 cat index.base | tr -d '|' > index.en.html
 cp index.base index.es.html
@@ -20,6 +24,6 @@ done
 
 # Optionally pass base as first argument (if you are running this version in a 
 # subdirectory), e.g.: ./generate-pages "/mexcla"
-sed -i "s#{base}#$1#g" index.en.html
-sed -i "s#{base}#$1#g" index.es.html
+sed -i "s#{base}#$base#g" index.en.html
+sed -i "s#{base}#$base#g" index.es.html
 
