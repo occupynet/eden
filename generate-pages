@@ -2,6 +2,12 @@
 
 # Generate both an index.en.html and index.es.html from index.html using translation.es
 
+base="$1"
+
+if [ -z "$base" ]; then
+  printf "Please base the URL base directory as first argument, e.g. '/mexcla'.\n"
+  exit 1
+fi
 # Simply eliminate the pipes for the english version.
 cat index.base | tr -d '|' > index.en.html
 cp index.base index.es.html
