@@ -66,7 +66,8 @@ function mexcla_toggle_pad() {
   // We use mexcla_get_hash so the calc pages created aren't so trivially discovered.
   mexcla_toggle_iframe('pad-frame', 'https://pad.riseup.net/p/' + mexcla_get_hash());
 }
-function mexcla_toggle_iframe(id,url, extra = '') {
+
+function mexcla_toggle_iframe(id,url, extra)  {
   if($('#' + id).length == 0) {
     // The element doesn't exist, add it.
     mexcla_add_iframe(id, url, extra);
@@ -332,6 +333,6 @@ function mexcla_pause(s) {
   while(curDate - date < s);
 }
 
-function mexcla_add_iframe(id, src, extra = '') {
+function mexcla_add_iframe(id, src, extra) {
   $("#user-objects").append('<td class="user-object" id="' + id + '"><span class="extra">' + extra + '</span> <span class="direct-link">' + lang_direct_link + ': <a target="_blank" href="' + src + '">' + src + '</a></span><br /><iframe class="draggable resizable" src="' + src + '"/></td>');
 }
