@@ -64,7 +64,6 @@
         <img id="pencil" src="{base}/images/pencil.png" alt="pencil" />
         <!-- Pencil image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_kaddressbook.png) and
         author Everaldo Coelho (https://en.wikipedia.org/wiki/Everaldo_Coelho) and Yellowicon (http://www.yellowicon.com/) -->
-        <label><input onclick="mexcla_toggle_images();" type="checkbox" id="images-iframe-checkbox" />|Add photo gallery|</label>
         <label><input onclick="mexcla_toggle_irc();" type="checkbox" id="irc-iframe-checkbox" />|Add Indymedia Text chat|</label>
         <label><input onclick="mexcla_toggle_pad();" type="checkbox" id="pad-iframe-checkbox" />|Add Riseup Note Pad|</label>
         <label><input onclick="mexcla_toggle_calc();" type="checkbox" id="calc-iframe-checkbox" />|Add MF/PL Spreadsheet|</label>

@@ -83,10 +83,6 @@ function mexcla_toggle_calc() {
   mexcla_toggle_iframe('calc-frame', 'https://calc.mayfirst.org/' + mexcla_get_hash());
 }
 
-function mexcla_toggle_images() {
-  mexcla_toggle_iframe('images-frame', 'http://i.mayfirst.org/', 'Email your photos to i@mayfirst.org');
-}
-
 // Generate a random-looking hash that will be the same for everyone on the
 // same conference call.
 function mexcla_get_hash() {
