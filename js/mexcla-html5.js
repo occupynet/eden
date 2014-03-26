@@ -197,11 +197,13 @@ function mexcla_join_conference() {
   }
   mexcla_pause(200);
   mexcla_dtmf('#');
+  // If the conference number starts with a 6 - it means it's a big
+  // group call, so we want people to start off muted.
   // Wait a few seconds for the call to fully complete, then start off the
   // user muted, so we don't have a cacaphony of noise as new people join.
-  // Commented out: usually you want to say hi first thing after joining a
-  // conference - so getting a "you are now muted" maybe is too rude?
-  // setTimeout(mexcla_mic_mute, 7000);
+  if(digits[0] == 6) {
+    setTimeout(mexcla_mic_mute, 7000);
+  }
 }
 
 function mexcla_dtmf(key) {
