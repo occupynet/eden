@@ -189,6 +189,9 @@ function mexcla_join_conference() {
 
   // We have to send the conference number in single digits followed by #.
   digits = conf.split('');
+  // We have to wait for the call to connect before sending any digits
+  console.log("Pausing to let call connect");
+  mexcla_pause(9000);
   for (var i = 0; i < digits.length; i++) {
     // If we send the digits too quickly freeswitch can't process
     // them reliably.
