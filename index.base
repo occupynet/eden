@@ -36,7 +36,7 @@
         </button>
       </div>
       <div id="connect-instructions">
-        <span class="pstn-instructions">|Click the connect button to join the conference call. If you have technical problems, you may also connected by dialing +1.718.303.3204, choose extension 6, and then enter conference number: |<span class="pstn-instructions-conference-number"></span></span>
+        <span class="pstn-instructions">|This system only works with recent versions of Firefox or Chrome/Chromium. Click the connect button to join the conference call. If you have technical problems, you may also connected by dialing: USA +1.718.303.3204/Mexico +52 5585262875, choose extension 6, and then enter conference number: |<span class="pstn-instructions-conference-number"></span></span>
       </div>
     </div>
 
