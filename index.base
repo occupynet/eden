@@ -18,6 +18,7 @@
       var lang_not_yet_connected = '|Your call is not yet connected|';
       var lang_direct_link = '|Direct link|'; 
     </script>
+    <script src="/mexcla/js/usi-switch.js" type="text/javascript"> </script>
   </head>
   <body onload="mexcla_init();">
     <div id="header">
