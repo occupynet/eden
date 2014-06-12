@@ -1,0 +1,138 @@
+/*********************
+NAVIGATION STYLES
+*********************/
+
+/******************************************************************
+NAVIGATION
+******************************************************************/
+
+/*
+all navs have a .nav class applied via the wp_menu function; this 
+is so we can easily write one group of styles for the navs on the 
+site so our css is cleaner and more scalable.
+*/
+ 
+.nav {
+    margin: 0;
+	li {
+        margin: 0;
+        white-space: nowrap;
+		a {
+			display: block;
+			text-decoration: none;
+		}
+	} 
+}
+
+
+
+/******************************************************************
+FILTER MENUS
+******************************************************************/
+
+.filters {
+    @include fill-parent;
+    position: relative;
+    margin-bottom: 30px;
+    ul {
+        position: relative;
+        @include transition(height 0.25s ease);
+        height: 40px;
+        overflow: hidden;
+        position: absolute;
+        @include breakpoint(medium) {@include span-columns(4);}
+    	&:first-child {
+    		background: $green;
+    	}
+    	&:nth-child(2) {
+    		background: $teal;
+    		left: 25%;
+    	}
+    	&:nth-child(3) {
+    		background: $blue;
+    		left: 50%;
+    	}
+    	&:nth-child(4) {
+    		background: $navy;
+    		left: 75%;
+    	}
+    	&:hover {
+        	height: auto;
+        	cursor: pointer;
+    	}
+        li {
+            display: block;
+            padding: 5px 10px;
+            margin: 0;
+            background: $white;
+            color: $text-color;
+            &:first-child {
+                @include font-icon-base($family:"ios7-icon"); 
+                @include font-size(16);
+                @extend %ios7-down;
+                background: transparent;
+                color: $white;
+            }
+        }
+    }
+}
+
+
+/******************************************************************
+PAGINATION
+******************************************************************/
+
+.pagination,
+.wp-prev-next {
+	margin: 1.1em 0 2.2em;
+}
+.pagination{
+    text-align: center;
+    ul {
+        display: inline-block;
+        white-space: nowrap;
+        padding:0;
+        clear: both;
+        margin: 1px;
+        li {
+            padding: 0;
+            margin: 0;
+            float: left;
+            display: inline;
+            overflow: hidden;
+            a, span {
+                margin: 0;
+                text-decoration: none;
+                padding: 0;
+                line-height: 1em;
+                font-size: 1em;
+                font-weight: 300;
+                padding: .5em;
+                min-width: 1em;
+                display: block;
+            }
+            span.current{
+            	font-weight: bold;
+            }
+            a:hover, a:focus {
+                
+            }
+        }
+    }
+} 
+
+/* fallback previous & next links */
+.wp-prev-next {
+
+	ul {}
+
+	.prev-link {
+		float: left;
+	}
+
+	.next-link {
+		float: right;
+	}
+
+}
+

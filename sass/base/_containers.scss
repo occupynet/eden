@@ -1,0 +1,64 @@
+// CONTAINERS 
+
+
+// base
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  // background: $gray9;
+}
+
+
+hr {
+	border: 0;
+	height: 1px;
+	background: $hr-color;
+	margin:2rem 0 4rem 0;
+}
+
+
+// modules
+// use Bourbon Neat grid
+
+#content {
+    padding-top: 20px;
+}
+
+
+.wrap {
+	width: 90%;
+	margin: 0 auto;
+}
+
+header,
+main {
+    @include outer-container;
+}
+
+
+
+// sidebar
+aside[role='complementary'] {
+	@include breakpoint(medium) {@include span-columns(6);}
+}
+
+// main
+section[role='main'] {
+    padding-bottom: 60px; 
+	@include breakpoint(medium) {@include span-columns(10); }
+    // single page template 
+    .page-template-page-iframe-php & {
+        @include span-columns(16); 
+        padding: 0;
+    }
+}
+
+
+
+
+
+
