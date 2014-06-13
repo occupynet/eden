@@ -666,6 +666,7 @@ h2 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000379}}
 h3 {
+  margin-bottom: .25em;
   font-size: 22px;
   font-size: 1.375rem; }
   @media (min-width: 769px) {
@@ -679,90 +680,90 @@ h3 {
       font-size: 28px;
       font-size: 1.75rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000386}}
 h4 {
   font-size: 18px;
   font-size: 1.125rem; }
   @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000386}}
     h4 {
       font-size: 21px;
       font-size: 1.3125rem; } }
   @media (min-width: 1025px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000386}}
     h4 {
       font-size: 22px;
       font-size: 1.375rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000392}}
 h5 {
   font-size: 16px;
   font-size: 1rem;
   font-weight: 700; }
   @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000392}}
     h5 {
       font-size: 17px;
       font-size: 1.0625rem; } }
   @media (min-width: 1025px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000392}}
     h5 {
       font-size: 18px;
       font-size: 1.125rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000399}}
 h6 {
   font-size: 14px;
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 1px; }
   @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000399}}
     h6 {
       font-size: 15px;
       font-size: 0.9375rem; } }
   @media (min-width: 1025px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\0000399}}
     h6 {
       font-size: 16px;
       font-size: 1rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003109}}
 p {
   font-size: 16px;
   font-size: 1rem; }
   @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003109}}
     p {
       font-size: 17px;
       font-size: 1.0625rem; } }
   @media (min-width: 1025px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003109}}
     p {
       font-size: 18px;
       font-size: 1.125rem;
       max-width: 40em;
       line-height: 1.75; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003116}}
 li, dt, dd {
   font-size: 16px;
   font-size: 1rem;
   margin-bottom: .75em; }
   @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003116}}
     li, dt, dd {
       font-size: 17px;
       font-size: 1.0625rem; } }
   @media (min-width: 1025px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003116}}
     li, dt, dd {
       font-size: 18px;
       font-size: 1.125rem;
       max-width: 40em;
       line-height: 1.75; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003123}}
 input, label, select, textarea {
   font-size: 16px;
   font-size: 1rem;
@@ -770,56 +771,56 @@ input, label, select, textarea {
   font-family: "Lato", Helvetica, Verdana, sans-serif;
   font-weight: 300; }
   @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003123}}
     input, label, select, textarea {
       font-size: 17px;
       font-size: 1.0625rem; } }
   @media (min-width: 1025px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003123}}
     input, label, select, textarea {
       font-size: 18px;
       font-size: 1.125rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003132}}
 small {
   font-size: 12px;
   font-size: 0.75rem; }
   @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003132}}
     small {
       font-size: 13px;
       font-size: 0.8125rem; } }
   @media (min-width: 1025px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003132}}
     small {
       font-size: 14px;
       font-size: 0.875rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003140}}
 b, strong {
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003144}}
 i, em {
   font-style: italic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003150}}
 ul, ol {
   margin: 0 0 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003152}}
   ul ul, ul ol, ol ul, ol ol {
     margin: .75em 0 1.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003158}}
 blockquote {
   padding: 0 10% 0 0;
   margin: 1.5em 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003161}}
   blockquote p, blockquote li {
     color: #b8b6b2;
     font-style: italic; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003170}}
 code,
 kbd,
 pre,
@@ -828,7 +829,7 @@ samp {
   font-size: 16px;
   font-size: 1rem; }
   @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003170}}
     code,
     kbd,
     pre,
@@ -836,7 +837,7 @@ samp {
       font-size: 17px;
       font-size: 1.0625rem; } }
   @media (min-width: 1025px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003170}}
     code,
     kbd,
     pre,
@@ -844,7 +845,7 @@ samp {
       font-size: 18px;
       font-size: 1.125rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003177}}
 pre {
   padding: 1em 1.5em;
   margin: 1.5em 0;
@@ -852,7 +853,7 @@ pre {
   background: #454545;
   color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_typography\.scss}line{font-family:\00003188}}
 .home-intro h1 {
   margin: 0; }
 
@@ -864,42 +865,48 @@ body {
   margin: 0;
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000315}}
 hr {
   border: 0;
   height: 1px;
   background: #cccccc;
   margin: 2rem 0 4rem 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000327}}
-#content {
-  padding-top: 20px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000332}}
-.wrap {
-  width: 90%;
-  margin: 0 auto; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000338}}
-header,
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000323}}
+body > header,
 main {
   *zoom: 1;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000318}}
-  header:before, header:after,
+  body > header:before, body > header:after,
   main:before,
   main:after {
     content: " ";
     display: table; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/bourbon\/addons\/_clearfix\.scss}line{font-family:\0000323}}
-  header:after,
+  body > header:after,
   main:after {
     clear: both; }
+  @media (min-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000323}}
+    body > header,
+    main {
+      padding: 1em; } }
+  @media (min-width: 481px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000323}}
+    body > header,
+    main {
+      padding: 1em; } }
+  @media (min-width: 321px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000323}}
+    body > header,
+    main {
+      padding: .5em; } }
 
 @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000337}}
   aside[role='complementary'] {
     display: block;
     float: left;
@@ -909,11 +916,11 @@ main {
     aside[role='complementary']:last-child {
       margin-right: 0; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000344}}
 section[role='main'] {
   padding-bottom: 60px; }
   @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000344}}
     section[role='main'] {
       display: block;
       float: left;
@@ -922,257 +929,24 @@ section[role='main'] {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
       section[role='main']:last-child {
         margin-right: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000354}}
-  .page-template-page-iframe-php section[role='main'] {
-    display: block;
-    float: left;
-    margin-right: 1.75788%;
-    width: 100%;
-    padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
-    .page-template-page-iframe-php section[role='main']:last-child {
-      margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\000034}}
-#inner-header {
-  border-bottom: 1px solid #cccccc; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\000038}}
-.domain-title {
-  font-size: 18px;
-  font-size: 1.125rem;
-  line-height: 1;
-  display: none;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000351}}
+#language-links {
+  display: block;
   float: left;
-  margin: 0;
-  white-space: nowrap; }
-  @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\000038}}
-    .domain-title {
-      font-size: 14px;
-      font-size: 0.875rem;
-      display: block; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000316}}
-  .domain-title a, .domain-title a:visited {
-    display: block;
-    color: #454545;
-    font-weight: 700;
-    padding: 15px 10px 15px 5px; }
+  margin-right: 1.75788%;
+  width: 17.32172%;
+  margin-left: 82.67828%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
+  #language-links:last-child {
+    margin-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000326}}
-.nav-anchors {
-  margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000328}}
-  .nav-anchors li {
-    display: inline-block;
-    margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000332}}
-  .nav-anchors li:last-child {
-    float: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000335}}
-  .nav-anchors a {
-    display: block;
-    padding: 10px;
-    color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/webfonts\/_mixins\.scss}line{font-family:\0000343}}
-    .nav-anchors a:before {
-      font-family: "ios7-icon";
-      font-style: normal;
-      font-size: inherit;
-      line-height: inherit;
-      margin-right: 0;
-      text-align: center;
-      display: inline-block;
-      color: inherit;
-      vertical-align: middle; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000341}}
-  .nav-anchors .menu-anchor {
-    font-size: 16px;
-    font-size: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000344}}
-    .nav-anchors .menu-anchor:before {
-      float: right;
-      margin-left: 7px;
-      margin-top: 2px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000350}}
-  .nav-anchors .search-anchor {
-    font-size: 22px;
-    font-size: 1.375rem; }
-  @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000326}}
-    .nav-anchors {
-      display: none; } }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000360}}
-.nav-global {
-  background: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000362}}
-  .nav-global a {
-    color: #454545; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000365}}
-  .nav-global a:hover {
-    color: #00a99d; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000368}}
-  .nav-global .search-form {
-    float: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000371}}
-  .nav-global .nav {
-    position: absolute;
-    left: 0;
-    top: 54px;
-    z-index: 4;
-    background: white; }
-    @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000371}}
-      .nav-global .nav {
-        position: static;
-        padding-right: 5px;
-        background: transparent; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000379}}
-  .nav-global .nav li {
-    font-size: 18px;
-    font-size: 1.125rem;
-    line-height: 1; }
-    @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000379}}
-      .nav-global .nav li {
-        font-size: 14px;
-        font-size: 0.875rem;
-        display: inline-block; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000384}}
-    .nav-global .nav li a,
-    .nav-global .nav li a:visited {
-      padding: 10px 20px;
-      color: #454545; }
-      @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000384}}
-        .nav-global .nav li a,
-        .nav-global .nav li a:visited {
-          padding: 15px 10px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000390}}
-    .nav-global .nav li a:focus,
-    .nav-global .nav li a:hover {
-      background: #454545;
-      color: white; }
-      @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000390}}
-        .nav-global .nav li a:focus,
-        .nav-global .nav li a:hover {
-          background: transparent;
-          color: #00a99d; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000398}}
-  .nav-global .nav li.current-menu-item,
-  .nav-global .nav li.current_page_item,
-  .nav-global .nav li.current-page-ancestor {
-    display: none; }
-    @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000398}}
-      .nav-global .nav li.current-menu-item,
-      .nav-global .nav li.current_page_item,
-      .nav-global .nav li.current-page-ancestor {
-        display: inline-block; } }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003106}}
-.nav-local {
-  background: #6a6a6a;
-  height: 44px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003109}}
-  .nav-local .search-form {
-    float: right;
-    margin: 0 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003113}}
-  .nav-local .nav li {
-    font-size: 100%;
-    display: block;
-    margin: 0;
-    margin-right: -2px; }
-    @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003113}}
-      .nav-local .nav li {
-        display: inline-block; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003119}}
-    .nav-local .nav li.current-menu-item a {
-      background: #00a99d;
-      color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003124}}
-  .nav-local .nav li a {
-    display: block;
-    padding: 7px 15px;
-    color: #00a99d;
-    text-transform: uppercase;
-    letter-spacing: 1px; }
-    @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003124}}
-      .nav-local .nav li a {
-        color: white; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003131}}
-    .nav-local .nav li a:hover {
-      color: #454545; }
-      @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003131}}
-        .nav-local .nav li a:hover {
-          background: #00a99d;
-          color: white; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003136}}
-  .nav-local #searchform #searchsubmit {
-    background: #00a99d;
-    border-color: #00a99d; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003145}}
-.js .nav {
-  overflow: hidden;
-  max-height: 0;
-  -webkit-transition: max-height 0.2s ease-in-out;
-  -moz-transition: max-height 0.2s ease-in-out;
-  transition: max-height 0.2s ease-in-out; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003149}}
-  .js .nav.active {
-    max-height: 160px;
-    overflow: visible;
-    background: white; }
-  @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003145}}
-    .js .nav {
-      max-height: none; } }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003163}}
-li.current-menu-item,
-li.current_page_item,
-li.current-page-ancestor {
-  position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_config\.scss}line{font-family:\00003146}}
-  li.current-menu-item a:before,
-  li.current-menu-item a:after,
-  li.current_page_item a:before,
-  li.current_page_item a:after,
-  li.current-page-ancestor a:before,
-  li.current-page-ancestor a:after {
-    position: absolute;
-    content: '';
-    height: 0px;
-    left: 50%;
-    bottom: -1px;
-    border-color: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_config\.scss}line{font-family:\00003154}}
-  li.current-menu-item a:before,
-  li.current_page_item a:before,
-  li.current-page-ancestor a:before {
-    border-bottom-color: #b8b6b2;
-    border-width: 8px;
-    margin-left: -8px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_config\.scss}line{font-family:\00003159}}
-  li.current-menu-item a:after,
-  li.current_page_item a:after,
-  li.current-page-ancestor a:after {
-    border-bottom-color: #efefef;
-    border-width: 7px;
-    margin-left: -7px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\00003172}}
-li.current-menu-item a:hover,
-li.current_page_item a:hover {
-  color: #454545;
-  cursor: default; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\000033}}
+body > header {
+  border-bottom: 1px solid #cccccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\000035}}
+  body > header h1 {
+    margin-top: .5em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_footer\.scss}line{font-family:\000033}}
 .footer {
@@ -1399,136 +1173,21 @@ all navs have a .nav class applied via the wp_menu function; this
 is so we can easily write one group of styles for the navs on the 
 site so our css is cleaner and more scalable.
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000315}}
-.nav {
-  margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000317}}
-  .nav li {
-    margin: 0;
-    white-space: nowrap; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000320}}
-    .nav li a {
-      display: block;
-      text-decoration: none; }
-
-/******************************************************************
-FILTER MENUS
-******************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000333}}
-.filters {
-  width: 100%;
-  position: relative;
-  margin-bottom: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000337}}
-  .filters ul {
-    position: relative;
-    -webkit-transition: height 0.25s ease;
-    -moz-transition: height 0.25s ease;
-    transition: height 0.25s ease;
-    height: 40px;
-    overflow: hidden;
-    position: absolute; }
-    @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000337}}
-      .filters ul {
-        display: block;
-        float: left;
-        margin-right: 1.75788%;
-        width: 23.68159%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
-        .filters ul:last-child {
-          margin-right: 0; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000344}}
-    .filters ul:first-child {
-      background: #22b573; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000347}}
-    .filters ul:nth-child(2) {
-      background: #00a99d;
-      left: 25%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000351}}
-    .filters ul:nth-child(3) {
-      background: #29abe2;
-      left: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000355}}
-    .filters ul:nth-child(4) {
-      background: #247cc9;
-      left: 75%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000359}}
-    .filters ul:hover {
-      height: auto;
-      cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000363}}
-    .filters ul li {
-      display: block;
-      padding: 5px 10px;
-      margin: 0;
-      background: white;
-      color: #454545; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000369}}
-      .filters ul li:first-child {
-        font-size: 16px;
-        font-size: 1rem;
-        background: transparent;
-        color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/webfonts\/_mixins\.scss}line{font-family:\0000343}}
-        .filters ul li:first-child:before {
-          font-family: "ios7-icon";
-          font-style: normal;
-          font-size: inherit;
-          line-height: inherit;
-          margin-right: 0;
-          text-align: center;
-          display: inline-block;
-          color: inherit;
-          vertical-align: middle; }
-
-/******************************************************************
-PAGINATION
-******************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000386}}
-.pagination,
-.wp-prev-next {
-  margin: 1.1em 0 2.2em; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000389}}
-.pagination {
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000391}}
-  .pagination ul {
-    display: inline-block;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000316}}
+.nav,
+nav {
+  margin: 0;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000319}}
+  .nav li,
+  nav li {
+    margin: 0 .5em;
     white-space: nowrap;
-    padding: 0;
-    clear: both;
-    margin: 1px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000397}}
-    .pagination ul li {
-      padding: 0;
-      margin: 0;
-      float: left;
-      display: inline;
-      overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\00003103}}
-      .pagination ul li a, .pagination ul li span {
-        margin: 0;
-        text-decoration: none;
-        padding: 0;
-        line-height: 1em;
-        font-size: 1em;
-        font-weight: 300;
-        padding: .5em;
-        min-width: 1em;
-        display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\00003114}}
-      .pagination ul li span.current {
-        font-weight: bold; }
-
-/* fallback previous & next links */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\00003129}}
-.wp-prev-next .prev-link {
-  float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\00003133}}
-.wp-prev-next .next-link {
-  float: right; }
+    display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_menus\.scss}line{font-family:\0000323}}
+    .nav li a,
+    nav li a {
+      text-decoration: none; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\000035}}
 a,
@@ -1556,15 +1215,7 @@ a:visited {
     */
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000333}}
-.excerpt-read-more {
-  font-size: 80%;
-  white-space: nowrap;
-  padding-left: 5px;
-  text-transform: uppercase;
-  letter-spacing: 1px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000337}}
 button,
 .button {
   -webkit-transition: all 0.25s ease;
@@ -1582,44 +1233,44 @@ button,
   background: #00a99d;
   color: white;
   display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000350}}
   button.disconnect,
   .button.disconnect {
-    background: #f15a24; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000363}}
+    background: #b0082d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000353}}
   button.connect,
   .button.connect {
     background: #22b573; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000356}}
   button.espanol,
   .button.espanol {
     background: #22b573; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000359}}
   button.english,
   .button.english {
     background: #29abe2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000363}}
   button:link, button:visited,
   .button:link,
   .button:visited {
     color: white; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000367}}
   button:hover, button:focus,
   .button:hover,
   .button:focus {
     background: #efefef;
     color: #454545; }
   @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000337}}
     button,
     .button {
       font-size: 16px;
       font-size: 1rem; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\00003101}}
-#call-options label,
-#interpretation-mode label {
-  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_buttons\.scss}line{font-family:\0000394}}
+#call-options input[type='radio'],
+#interpretation-mode input[type='radio'] {
+  margin-right: 5px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_tabs\.scss}line{font-family:\000031}}
 .tabs {

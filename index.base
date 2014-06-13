@@ -21,9 +21,17 @@
   </head>
   <body onload="mexcla_init();">
     <header id="header">
+      <nav class="nav">
+        <ul>
+          <li class="news"><a href="">News</a></li>
+          <li class="support"><a href="">Support</a></li>
+          <li class="join"><a href="">Join Us</a></li>
+          <li class="server-status"><a href="">Server Status</a></li>
+          <li class="members"><a href="">Member Services</a></li>
+        </ul>
+      </nav>
       <h1>
         <!-- <img id="logo" alt="Dandilion" src="{base}/images/logo.png" /> -->
-        [Logo]
         <div id="tagline">|Mexcla: The May First/People Link simultaneous interpretation conference system|</div>
       </h1>
       <div id="language-links">
@@ -37,7 +45,7 @@
         <div id="connect-icon-and-button">
           <!-- Phone image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Emblem_phone.svg) and g ambrus
           (https://commons.wikimedia.org/wiki/User:G_ambrus) -->
-          <span class="button disconnect"><img id="phone" src="{base}/images/phone.disconnected.png" alt="disconnect" /></span>
+          <span id="phone" class="button disconnect">|Disconnect|</span>
           <button onclick="mexcla_toggle_call_status(); return false;" id="connect-button button">
             <span id="connect-button-text" class="connect">|Connect|</span>
             <span id="connect-dots"></span>

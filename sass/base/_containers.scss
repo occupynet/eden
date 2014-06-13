@@ -9,7 +9,6 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-  // background: $gray9;
 }
 
 
@@ -17,48 +16,41 @@ hr {
 	border: 0;
 	height: 1px;
 	background: $hr-color;
-	margin:2rem 0 4rem 0;
+	margin: 2rem 0 4rem 0;
 }
 
-
-// modules
-// use Bourbon Neat grid
-
-#content {
-    padding-top: 20px;
-}
-
-
-.wrap {
-	width: 90%;
-	margin: 0 auto;
-}
-
-header,
+body>header,
 main {
     @include outer-container;
+    @include breakpoint(medium) {
+        padding: 1em;
+    }
+    @include breakpoint(small) {
+        padding: 1em;
+    }
+    @include breakpoint(tiny) {
+        padding: .5em;
+    }
 }
-
-
 
 // sidebar
 aside[role='complementary'] {
-	@include breakpoint(medium) {@include span-columns(6);}
+@include breakpoint(medium) {
+      @include span-columns(6);
+  }
 }
 
 // main
 section[role='main'] {
-    padding-bottom: 60px; 
-	@include breakpoint(medium) {@include span-columns(10); }
-    // single page template 
-    .page-template-page-iframe-php & {
-        @include span-columns(16); 
-        padding: 0;
-    }
+  padding-bottom: 60px; 
+	@include breakpoint(medium) {
+      @include span-columns(10);
+  }
 }
 
-
-
-
+#language-links {
+  @include span-columns(3);
+  @include shift(13);
+}
 
 
