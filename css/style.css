@@ -1275,7 +1275,7 @@ button,
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_tabs\.scss}line{font-family:\000031}}
 .tabs {
   position: relative;
-  min-height: 200px;
+  min-height: 400px;
   /* This part sucks */
   clear: both;
   margin: 25px 0; }
