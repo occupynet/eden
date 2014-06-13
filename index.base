@@ -3,10 +3,10 @@
   <head>
     <title>Mexcla</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="{base}css/style.css">
-    <script src="{base}/js/config.js" type="text/javascript"> </script>
-    <script src="{base}/js/sipml5/SIPml-api.js" type="text/javascript"> </script>
-    <script src="{base}/js/mexcla-html5.js" type="text/javascript"> </script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/config.js" type="text/javascript"> </script>
+    <script src="js/sipml5/SIPml-api.js" type="text/javascript"> </script>
+    <script src="js/mexcla-html5.js" type="text/javascript"> </script>
     <script type="text/javascript" src="/javascript/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="/javascript/jquery-ui/jquery-ui.min.js"></script>
     <script type="text/javascript">
@@ -17,11 +17,12 @@
       var lang_not_yet_connected = '|Your call is not yet connected|';
       var lang_direct_link = '|Direct link|'; 
     </script>
-    <script src="/mexcla/js/usi-switch.js" type="text/javascript"> </script>
+    <script src="js/usi-switch.js" type="text/javascript"> </script>
   </head>
   <body onload="mexcla_init();">
     <header id="header">
-      <nav class="nav">
+      <!-- Someday, this should have the global header -->
+      <!-- <nav class="nav">
         <ul>
           <li class="news"><a href="">News</a></li>
           <li class="support"><a href="">Support</a></li>
@@ -29,9 +30,9 @@
           <li class="server-status"><a href="">Server Status</a></li>
           <li class="members"><a href="">Member Services</a></li>
         </ul>
-      </nav>
+      </nav> -->
       <h1>
-        <!-- <img id="logo" alt="Dandilion" src="{base}/images/logo.png" /> -->
+        <!-- <img id="logo" alt="Dandilion" src="images/logo.png" /> -->
         <div id="tagline">|Mexcla: The May First/People Link simultaneous interpretation conference system|</div>
       </h1>
       <div id="language-links">
@@ -56,7 +57,7 @@
       <section class="options" role="main">
         <div id="call-options">
         <h3>|Call Options|</h3>
-          <!-- <img id="mic" src="{base}/images/mic.unmuted.png" alt="microphone" /> -->
+          <!-- <img id="mic" src="images/mic.unmuted.png" alt="microphone" /> -->
           <!-- Mic image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Exquisite-microphone.png) and KDE which
           seems to have improved a version from Mimi Ladha. -->
 
@@ -66,7 +67,7 @@
 
         <div id="interpretation-mode">
           <h3>|Language Options|</h3>
-          <!-- <img id="headset" src="{base}/images/headset.bi.png" alt="headset" /> -->
+          <!-- <img id="headset" src="images/headset.bi.png" alt="headset" /> -->
           <!-- Headset image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_voice-support.png) and
           author Everaldo Coelho (https://en.wikipedia.org/wiki/Everaldo_Coelho) and Yellowicon (http://www.yellowicon.com/) -->
           <label><input onclick="mexcla_mode_original();" type="radio" name="mode" id="mode-original" value="original" />|Hear original language|</label>
@@ -111,7 +112,7 @@
               <li><a href="#tab2" onclick="mexcla_toggle_pad();">Notepad</a></li>
               <li><a href="#tab3" onclick="mexcla_toggle_calc();">Spreadsheet</a></li>
             </ul>            
-            <img id="pencil" src="{base}/images/pencil.png" alt="pencil" />
+            <img id="pencil" src="images/pencil.png" alt="pencil" />
             Pencil image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_kaddressbook.png) and
             author Everaldo Coelho (https://en.wikipedia.org/wiki/Everaldo_Coelho) and Yellowicon (http://www.yellowicon.com/)
 

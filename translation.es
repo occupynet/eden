@@ -19,3 +19,17 @@
 |Click the connect button to join the conference call. If you have technical problems, you may also connected by dialing +1.718.303.3204, choose extension 6, and then enter conference number: |=Has clic en el botón conectarse para unirte a la llamada de conferencia. Si tienes problemas técnicos, puedes también conectarte por marcación al número de teléfono: +1.718.303.3204; después elige la extensión: 6 y luego ingresa el número de la conferencia: 
 |Direct link|=Enlace directo
 |This system only works with recent versions Chrome/Chromium. Click the connect button to join the conference call. If you have technical problems, you may also connected by dialing: USA +1.718.303.3204 choose extension 6, and then enter conference number: |=||
+|Conference Room|=Sala de Conferencias
+|Call Options|=Opciones del teléfono
+|Language Options|=Opciones de idioma
+|Collaboration|=Colaboración
+|IRC Chat|=Añadir el chat de texto de Indymedia
+|Notepad|=Añadir notas de Riseup
+|Spreadsheet|=Añadir una hoja de cálculo de PM/EP
+|Connect By Telephone|=Conecte por Teléfono
+|Dial|=Marcar
+|Enter|=Marcar
+|Select|=Seleccionar
+|Conference number|=Sala de Conferencias
+|Note: This system only works with recent versions Chrome/Chromium.|=||
+|Select|</strong> |Conference number|=Sala de Conferencias
