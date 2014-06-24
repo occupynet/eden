@@ -911,16 +911,36 @@ main {
     display: block;
     float: left;
     margin-right: 1.75788%;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
+    aside[role='complementary']:last-child {
+      margin-right: 0; } }
+@media (min-width: 1025px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000337}}
+  aside[role='complementary'] {
+    display: block;
+    float: left;
+    margin-right: 1.75788%;
     width: 36.40133%; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
     aside[role='complementary']:last-child {
       margin-right: 0; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000349}}
 section[role='main'] {
   padding-bottom: 60px; }
   @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000349}}
+    section[role='main'] {
+      display: block;
+      float: left;
+      margin-right: 1.75788%;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
+      section[role='main']:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1025px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000349}}
     section[role='main'] {
       display: block;
       float: left;
@@ -930,23 +950,84 @@ section[role='main'] {
       section[role='main']:last-child {
         margin-right: 0; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_containers\.scss}line{font-family:\0000351}}
-#language-links {
-  display: block;
-  float: left;
-  margin-right: 1.75788%;
-  width: 17.32172%;
-  margin-left: 82.67828%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
-  #language-links:last-child {
-    margin-right: 0; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\000033}}
 body > header {
   border-bottom: 1px solid #cccccc; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\000035}}
-  body > header h1 {
-    margin-top: .5em; }
+  body > header h1#logo {
+    margin-top: 0; }
+    @media (min-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\000035}}
+      body > header h1#logo {
+        display: block;
+        float: left;
+        margin-right: 1.75788%;
+        width: 100%;
+        margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
+        body > header h1#logo:last-child {
+          margin-right: 0; } }
+    @media (min-width: 1025px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\000035}}
+      body > header h1#logo {
+        display: block;
+        float: left;
+        margin-right: 1.75788%;
+        width: 36.40133%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
+        body > header h1#logo:last-child {
+          margin-right: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000316}}
+  body > header h3#tagline {
+    font-size: 2rem; }
+    @media (min-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000316}}
+      body > header h3#tagline {
+        display: block;
+        float: left;
+        margin-right: 1.75788%;
+        width: 100%;
+        margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
+        body > header h3#tagline:last-child {
+          margin-right: 0; } }
+    @media (min-width: 1025px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000316}}
+      body > header h3#tagline {
+        display: block;
+        float: left;
+        margin-right: 1.75788%;
+        width: 61.8408%;
+        margin-right: 0;
+        margin-top: .25em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
+        body > header h3#tagline:last-child {
+          margin-right: 0; } }
+  @media (min-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000328}}
+    body > header #language-links {
+      display: block;
+      float: left;
+      margin-right: 1.75788%;
+      width: 23.68159%;
+      margin-left: 76.31841%;
+      margin-right: 0;
+      margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
+      body > header #language-links:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1025px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_header\.scss}line{font-family:\0000328}}
+    body > header #language-links {
+      display: block;
+      float: left;
+      margin-right: 1.75788%;
+      width: 17.32172%;
+      margin-left: 82.67828%;
+      margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/neat\/grid\/_span-columns\.scss}line{font-family:\0000341}}
+      body > header #language-links:last-child {
+        margin-right: 0; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pea\/Sites\/mexcla\/sass\/base\/_footer\.scss}line{font-family:\000033}}
 .footer {

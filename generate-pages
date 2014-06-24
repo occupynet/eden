@@ -22,7 +22,8 @@ cat translation.es | grep -v ^# | while read line; do
   perl -p -i -e "s#$en#$es#;" index.es.html
 done
 
-temp=$(mktemp)
+# temp=$(mktemp)
+temp="./temp.txt"
 # Now remove pipes from spanish file
 cat index.es.html | tr -d '|' > "$temp"
 mv "$temp" index.es.html

@@ -31,10 +31,9 @@
           <li class="members"><a href="">Member Services</a></li>
         </ul>
       </nav> -->
-      <h1>
-        <!-- <img id="logo" alt="Dandilion" src="images/logo.png" /> -->
-        <div id="tagline">|Mexcla: The May First/People Link simultaneous interpretation conference system|</div>
-      </h1>
+      <h1 id="logo"><img alt="MayFirst/People Link" src="{base}images/logo.png" class="header-image" /></h1>
+      <h3 id="tagline">|Mexcla: Simultaneous interpretation conference system|</h3>
+      
       <div id="language-links">
         <a id="es-switch-link" class="button espanol" href="/es/">es</a> 
         <a id="en-switch-link" class="button english" href="/en/">en</a></div>

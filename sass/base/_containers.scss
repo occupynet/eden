@@ -35,22 +35,26 @@ main {
 
 // sidebar
 aside[role='complementary'] {
-@include breakpoint(medium) {
+  // @include span-columns(6);
+  // @@include omega();
+  @include breakpoint(medium) {
+        @include span-columns(16);
+  }
+  @include breakpoint(large) {
       @include span-columns(6);
   }
 }
 
 // main
 section[role='main'] {
+  // @include span-columns(10);
   padding-bottom: 60px; 
-	@include breakpoint(medium) {
+  @include breakpoint(medium) {
+        @include span-columns(16);
+  }
+  @include breakpoint(large) {
       @include span-columns(10);
   }
-}
-
-#language-links {
-  @include span-columns(3);
-  @include shift(13);
 }
 
 
