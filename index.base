@@ -91,15 +91,15 @@
       <div class="tabs">
         <div id="iframe-selectors">
           <div class="tab">
-            <input onclick="mexcla_toggle_irc();" type="radio" id="irc-iframe-checkbox" name="irc-iframe-checkbox" />
+            <input onclick="mexcla_toggle_irc();" type="radio" id="irc-iframe-checkbox" name="tab-group-1" />
             <label for="irc-iframe-checkbox">|IRC Chat|</label>
-            <div class="content irc">
+            <div class="irc content">
             IRC Chat content
             </div> 
           </div>
 
           <div class="tab">
-            <input onclick="mexcla_toggle_pad();" type="radio" id="pad-iframe-checkbox" name="pad-iframe-checkbox" />
+            <input onclick="mexcla_toggle_pad();" type="radio" id="pad-iframe-checkbox" name="tab-group-1" />
             <label for="pad-iframe-checkbox">|Notepad|</label>
             <div class="content pad">
             Notepad content
@@ -107,7 +107,7 @@
           </div>
 
           <div class="tab">
-            <input onclick="mexcla_toggle_calc();" type="radio" id="calc-iframe-checkbox" name="calc-iframe-checkbox" />
+            <input onclick="mexcla_toggle_calc();" type="radio" id="calc-iframe-checkbox" name="tab-group-1" />
             <label for="calc-iframe-checkbox">|Spreadsheet|</label>
             <div class="content calc">
             Spreadsheet content
