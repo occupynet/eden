@@ -6,9 +6,9 @@
   .tab {
     float: left;
     label {
-      background: #eee; 
+      background: $gray6; 
       padding: 10px; 
-      border: 1px solid #ccc; 
+      border: 1px solid $gray4; 
       margin-left: -1px; 
       position: relative;
       left: 1px; 
@@ -18,15 +18,16 @@
     position: absolute;
     top: 28px;
     left: 0;
-    background: white;
+    background: $white;
     right: 0;
     bottom: 0;
     padding: 20px;
-    border: 1px solid #ccc; 
+    border: 1px solid $gray4; 
+    width: 100%;
   }
   [type=radio]:checked ~ label {
     background: white;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid $white;
     z-index: 2;
   }
   [type=radio]:checked ~ label ~ .content {

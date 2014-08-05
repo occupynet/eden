@@ -39,7 +39,7 @@
         <a id="en-switch-link" class="button english" href="/en/">en</a></div>
     </header>
 
-    <main class="main-content">
+    <main class="main-content" role="main">
       <header id="connect">
         <h2 class="conference-id">|Conference Room| <span class="pstn-instructions-conference-number"></span></h2>
         <div id="connect-icon-and-button">
@@ -55,7 +55,7 @@
 
       <section class="options" role="main">
         <div id="call-options">
-        <h3>|Call Options|</h3>
+          <h3>|Call Options|</h3>
           <!-- <img id="mic" src="images/mic.unmuted.png" alt="microphone" /> -->
           <!-- Mic image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Exquisite-microphone.png) and KDE which
           seems to have improved a version from Mimi Ladha. -->
@@ -73,54 +73,6 @@
           <label><input onclick="mexcla_mode_hear_interpretation();" type="radio" name="mode" id="mode-hear-interpretation" value="hear-interpretation" />|Hear interpretation|</label>
           <label><input onclick="mexcla_mode_provide_interpretation();" type="radio" name="mode" id="mode-provide-interpretation" value="provide-interpretation" />|Provide interpretation|</label>
         </div>
-
-        <h3>|Collaboration|</h3>
-        <div class="tabs">
-          <div id="iframe-selectors">
-            <div class="tab">
-              <input onclick="mexcla_toggle_irc();" type="radio" id="irc-iframe-checkbox" name="tab-group-1" />
-              <label for="irc-iframe-checkbox">|IRC Chat|</label>
-              <div class="irc content">
-              IRC Chat content
-              </div> 
-            </div>
-
-            <div class="tab">
-              <input onclick="mexcla_toggle_pad();" type="radio" id="pad-iframe-checkbox" name="tab-group-1" />
-              <label for="pad-iframe-checkbox">|Notepad|</label>
-              <div class="content">
-              Notepad content
-              </div> 
-            </div>
-
-            <div class="tab">
-              <input onclick="mexcla_toggle_calc();" type="radio" id="calc-iframe-checkbox" name="tab-group-1" />
-              <label for="calc-iframe-checkbox">|Spreadsheet|</label>
-              <div class="content">
-              Spreadsheet content
-              </div> 
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="tabs">
-          <div id="iframe-selectors">
-            <h3>Collaboration</h3>
-            <ul class="tab-links">
-              <li><a href="#tab1" onclick="mexcla_toggle_irc();">IRC Chat</a></li>
-              <li><a href="#tab2" onclick="mexcla_toggle_pad();">Notepad</a></li>
-              <li><a href="#tab3" onclick="mexcla_toggle_calc();">Spreadsheet</a></li>
-            </ul>            
-            <img id="pencil" src="images/pencil.png" alt="pencil" />
-            Pencil image thanks to wikimedia (https://commons.wikimedia.org/wiki/File:Crystal_Clear_app_kaddressbook.png) and
-            author Everaldo Coelho (https://en.wikipedia.org/wiki/Everaldo_Coelho) and Yellowicon (http://www.yellowicon.com/)
-
-            <label><input onclick="mexcla_toggle_irc();" type="checkbox" id="irc-iframe-checkbox" />|Add Indymedia Text chat|</label>
-            <label><input onclick="mexcla_toggle_pad();" type="checkbox" id="pad-iframe-checkbox" />|Add Riseup Note Pad|</label>
-            <label><input onclick="mexcla_toggle_calc();" type="checkbox" id="calc-iframe-checkbox" />|Add MF/PL Spreadsheet|</label>
-          </div>
-
-        </div> -->
       </section>
 
       <aside id="connect-instructions" class="sidebar" role="complementary">
@@ -134,6 +86,37 @@
       </aside>
     </main>
 
+    <section id="collaboration" role="main">
+      <h3>|Collaboration|</h3>
+      <div class="tabs">
+        <div id="iframe-selectors">
+          <div class="tab">
+            <input onclick="mexcla_toggle_irc();" type="radio" id="irc-iframe-checkbox" name="irc-iframe-checkbox" />
+            <label for="irc-iframe-checkbox">|IRC Chat|</label>
+            <div class="content irc">
+            IRC Chat content
+            </div> 
+          </div>
+
+          <div class="tab">
+            <input onclick="mexcla_toggle_pad();" type="radio" id="pad-iframe-checkbox" name="pad-iframe-checkbox" />
+            <label for="pad-iframe-checkbox">|Notepad|</label>
+            <div class="content pad">
+            Notepad content
+            </div> 
+          </div>
+
+          <div class="tab">
+            <input onclick="mexcla_toggle_calc();" type="radio" id="calc-iframe-checkbox" name="calc-iframe-checkbox" />
+            <label for="calc-iframe-checkbox">|Spreadsheet|</label>
+            <div class="content calc">
+            Spreadsheet content
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+
     <div id="user-objects">
       <table>
         <tr></tr>
@@ -142,8 +125,12 @@
     <!-- The audio tag is not seen by the user (unless their browser doesn't support it) -->
     <div id="audio">
       <audio id="audio-remote" autoplay="autoplay">
-        |Sorry, you have no audio capabilities! Please use chrome or chromium great than version 25.|
+        |Sorry, you have no audio capabilities! Please use Chrome or Chromium version 25 (or greater).|
       </audio>
     </div>
+
+    <footer>
+      License info and link to source.
+    </footer>
   </body>
 </html>

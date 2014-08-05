@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Generate both an index.en.html and index.es.html from index.html using translation.es
+# Generate both an index.en.html and index.es.html from index.base using translation.es
 
 base="$1"
 

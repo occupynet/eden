@@ -20,41 +20,46 @@ hr {
 }
 
 body>header,
-main {
+main,
+#collaboration,
+footer {
     @include outer-container;
     @include breakpoint(medium) {
-        padding: 1em;
+      padding: 1em;
     }
     @include breakpoint(small) {
-        padding: 1em;
+      padding: 1em;
     }
     @include breakpoint(tiny) {
-        padding: .5em;
+      padding: .5em;
     }
 }
 
-// sidebar
-aside[role='complementary'] {
-  // @include span-columns(6);
-  // @@include omega();
-  @include breakpoint(medium) {
-        @include span-columns(16);
+main {
+  section {
+    @include span-columns(10);
   }
-  @include breakpoint(large) {
-      @include span-columns(6);
+  aside {
+    @include span-columns(6);
+  }
+  @include media($mobile) {
+    section,
+    aside {
+      @include span-columns(16);
+    }
   }
 }
 
-// main
-section[role='main'] {
-  // @include span-columns(10);
-  padding-bottom: 60px; 
-  @include breakpoint(medium) {
-        @include span-columns(16);
-  }
-  @include breakpoint(large) {
-      @include span-columns(10);
+section#collaboration {
+  h3 {
+    margin-top: 0;
   }
 }
+
+footer {
+  background: $gray6; 
+}
+
+
 
 
